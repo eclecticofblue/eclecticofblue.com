@@ -1,3 +1,8 @@
+window.onload = () => {
+    document.getElementById("home").style.display = "block";
+    document.getElementById("about").style.display = "none";
+}
+
 const showHome = () => {
     document.getElementById("home").style.display = "block";
     document.getElementById("about").style.display = "none";
